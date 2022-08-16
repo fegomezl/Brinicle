@@ -18,26 +18,25 @@ Below the Arctic sea ice, under the right conditions, a flux of icy brine flows 
 
 ## Results
 
-https://user-images.githubusercontent.com/54986485/184774459-eaa6ea77-1bbd-4c0e-8a4d-8c6332b5000f.mp4
-
-
-
-https://user-images.githubusercontent.com/54986485/184775336-29bc8db5-5b58-4976-ac1b-e2dfe193cee3.mp4
-
-
-
-https://user-images.githubusercontent.com/54986485/184775367-ff9b1c6d-c6a6-42a4-b3c8-f70586b1b518.mp4
-
-
-
-
-https://user-images.githubusercontent.com/54986485/184775387-65937ad2-91b5-48a3-a351-0d6d7a6fc93f.mp4
-
-
-
-
-https://user-images.githubusercontent.com/54986485/184775404-b8c629d3-66bd-42e2-a2fe-ae02a82753d2.mp4
-
+## Flow 100
+<video src="https://user-images.githubusercontent.com/54986485/184774459-eaa6ea77-1bbd-4c0e-8a4d-8c6332b5000f.mp4" width="50%" height="50%"> 
+</video> 
+ 
+## Flow 200
+<video src="https://user-images.githubusercontent.com/54986485/184775336-29bc8db5-5b58-4976-ac1b-e2dfe193cee3.mp4" height="5">
+</video> 
+  
+## Flow 300
+<video src="https://user-images.githubusercontent.com/54986485/184775367-ff9b1c6d-c6a6-42a4-b3c8-f70586b1b518.mp4" height="5">
+</video> 
+   
+## Flow 400
+<video src="https://user-images.githubusercontent.com/54986485/184775387-65937ad2-91b5-48a3-a351-0d6d7a6fc93f.mp4" height="5">
+</video> 
+    
+## Flow 500
+<video src="https://user-images.githubusercontent.com/54986485/184775404-b8c629d3-66bd-42e2-a2fe-ae02a82753d2.mp4" height="5">
+</video> 
 
 
 ## Running the programs
@@ -45,5 +44,5 @@ https://user-images.githubusercontent.com/54986485/184775404-b8c629d3-66bd-42e2-
 1. Copy the hidden file **.template\_local\_config.txt** with the name **local\_config.mk**
 2. Add the MFEM instalation directory.
 3. If you want to move the graphs to other folder after running a program, change the **NULL** option of the **SHARE\_DIR** variable to the folder directory.
-4. If you want to chage some quantity on a simulation, in each folder the file **settings/parameters.txt** has all the main parameters of the simulation.
+4. If you want to chage some quantity on a simulation, in each folder the file **settings/parameters.mk** has all the main parameters of the simulation.
 5. To run a simulation, you only have to write **make**.
