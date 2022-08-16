@@ -18,15 +18,15 @@ Below the Arctic sea ice, under the right conditions, a flux of icy brine flows 
 
 ## Results
 
-![til](https://github.com/fegomezl/Brinicle/tree/main/animations/100.mp4)
+https://github.com/fegomezl/Brinicle/tree/main/animations/100.mp4
 
-![til](https://github.com/fegomezl/Brinicle/tree/main/animations/200.mp4)
+https://github.com/fegomezl/Brinicle/tree/main/animations/200.mp4
 
-![til](https://github.com/fegomezl/Brinicle/tree/main/animations/300.mp4)
+https://github.com/fegomezl/Brinicle/tree/main/animations/300.mp4
 
-![til](https://github.com/fegomezl/Brinicle/tree/main/animations/400.mp4)
+https://github.com/fegomezl/Brinicle/tree/main/animations/400.mp4
 
-![til](https://github.com/fegomezl/Brinicle/tree/main/animations/500.mp4)
+https://github.com/fegomezl/Brinicle/tree/main/animations/500.mp4
 
 ## Running the programs
 
