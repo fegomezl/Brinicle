@@ -1,44 +1,54 @@
-# Heat and Mass Transfer with Phase Change
+# On the simulation of a Brinicle
 
-In this repository you will find a list of simulation regarding the effect of phase change on heat and mass transfer. All of the programs use the Finite Element Method, which is implmented on C++ with the library MFEM.
+This repo ....
 
-In each of the simulations, the domain is a cylinder, sometimes hollow, with an axial symmetry. Inside the domain, it is assumed that the material is water, which can be liquid and solid. 
+## Abstract
 
-## Running the programs
+Below the Arctic sea ice, under the right conditions, a flux of icy brine flows down into the sea. The icy brine has a much lower fusion point and a higher density than normal seawater. As a result, it sinks while freezing everything around it, forming an ice channel called a brinicle (also known as ice stalactite). We simulate this phenomenon assuming cylindrical symmetry. The fluid is considered viscous and quasi-stationary, and the problem is simulated, taking advantage of the setup symmetries. The heat and salt transport are weakly coupled to the fluid motion and are modeled with the corresponding conservation equations, taking into account diffusive and convective effects. The coupled system of partial differential equations is discretized and solved with the help of the MFEM finite element library. 
+
+## Citation
+
+```
+@article{brinicle,
+  title = {On the simulation of a Brinicle},
+  author = {Felipe G\'{o}mez and Carlos Andr\'{e}s del Valle and Jili\'{a}n Jim\'{e}nez},
+  journal = {},
+  doi = {},
+  volume = {},
+  pages = {},
+  year = {2022}
+}
+```
+
+## Results
+
+Description ....
+
+## Flow 100
+<video src="https://user-images.githubusercontent.com/54986485/184774459-eaa6ea77-1bbd-4c0e-8a4d-8c6332b5000f.mp4" width="10%" height="10%"> 
+</video> 
+ 
+## Flow 200
+<video src="https://user-images.githubusercontent.com/54986485/184775336-29bc8db5-5b58-4976-ac1b-e2dfe193cee3.mp4" width="10%" height="10%">
+</video> 
+  
+## Flow 300
+<video src="https://user-images.githubusercontent.com/54986485/184775367-ff9b1c6d-c6a6-42a4-b3c8-f70586b1b518.mp4" width="10%" height="10%">
+</video> 
+   
+## Flow 400
+<video src="https://user-images.githubusercontent.com/54986485/184775387-65937ad2-91b5-48a3-a351-0d6d7a6fc93f.mp4" width="10%" height="10%">
+</video> 
+    
+## Flow 500
+<video src="https://user-images.githubusercontent.com/54986485/184775404-b8c629d3-66bd-42e2-a2fe-ae02a82753d2.mp4" width="10%" height="10%">
+</video> 
+
+
+## Running the program
 
 1. Copy the hidden file **.template\_local\_config.txt** with the name **local\_config.mk**
 2. Add the MFEM instalation directory.
 3. If you want to move the graphs to other folder after running a program, change the **NULL** option of the **SHARE\_DIR** variable to the folder directory.
-4. If you want to chage some quantity on a simulation, in each folder the file **settings/parameters.txt** has all the main parameters of the simulation.
+4. If you want to chage some quantity on a simulation, in each folder the file **settings/parameters.mk** has all the main parameters of the simulation.
 5. To run a simulation, you only have to write **make**.
-
-## List of programs
-
-- Time_Independent
-  - 3D:
-    Benchmark Poisson equation problem with convergence analysis on a 3D hollow cylinder.
-  - 2D:
-    Benchmark Poisson equation problem with convergence analysis on a 2D square which simulates a hollow cylinder on cylindrical coordinates (the rest of the simulations assume this domain representation).
-- Time_Dependent
-  - onephase:
-    Benchmark time dependent heat equation with convergence analysis, in which only one phase is present.
-  - twophase:
-    Simulation with initial conditions set on different phases.
-  - twophase_exact:
-    Stefan problem simulation with comparison according to the exact Stefan solution.
-- Flow
-  - vorticity:
-    Quasi-static flow problem with a stream function-vorticity formulation and a frozen region.
-  - vorticity_barrier:
-    Quasi-static flow problem with a stream function-vorticity formulation and an obstacle.
-  - vorticity_exact:
-    Benchmark quasi-static flow problem with a stream function-vorticity formulation, including a convergence analysis.
-- Coupled
-  - heat_flow:
-    Heat diffusion problem with convection effects, where the flow is quasi-static and approched by a stream function-vorticity formulation.
-  - double_diffusion:
-    Heat and salinity diffusion problem, where both variables are weakly coplued.
-  - diffusion_flow:
-    Heat and salinity diffusion problem, where both variables are weakly coplued, including convection effects with a quasi-static flow and a stream function-vorticity approach.
-- Brinicle
-  - Simulation from **diffusion_flow** applied to form a brinicle, which is an ice channel formed on the artic sea because of icy brine fluxes that enter the ocean from the top layer of ice.

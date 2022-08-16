@@ -15,8 +15,8 @@ RIn = 2                   #Inflow(mm)
 
 #Simulation parameters:
 DT = 0.001         #Dt(s)
-T_FI = 70           #Final_time(s)
-VIS = 400            #Visualization_steps
+T_FI = 2.5           #Final_time(s)
+VIS = 20            #Visualization_steps
 
 #FE parameters:
 REF = 4          #Refinements
@@ -29,7 +29,7 @@ RELT_S = 0.00001    #reltol(SUNDIALS)
 EPSILON = 9          #nEpsilon
 
 #Brinicle conditions:
-Q = 500        #FlowRate(mm^3/s)
+Q = 300        #FlowRate(mm^3/s)
 Nl = 0          #Nucleation_length(mm)
 Nh = 0          #Nucleation_height(mm)
 Ti = -2         #Initial_temperature(°C)
