@@ -4,16 +4,17 @@ Below the Arctic sea ice, under the right conditions, a flux of icy brine flows 
 
 ## Citation
 
+```
 @article{mfem,
-  title = {On the simulation of a Brinicle},
-  author = {Felipe G\'{o}mez and Carlos Andr\'{e}s del Valle and Jili\'{a}n Jim\'{e}nez},
-  journal = {},
-  doi = {},
-  volume = {},
-  pages = {},
-  year = {2022}
+ title = {On the simulation of a Brinicle},
+ author = {Felipe Gómez and Carlos Andrés del Valle and Jilián Jiménez},
+ journal = {},
+ doi = {},
+ volume = {},
+ pages = {},
+ year = {2022}
 }
-
+```
 
 ## Results
 
