@@ -1,0 +1,10 @@
+*.x
+*.o
+*~
+local_config.mk
+.nfs*
+*.log
+*.vtu
+*.pvtu
+*.pvd
+*.png
