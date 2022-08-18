@@ -25,24 +25,34 @@ Below the Arctic sea ice, under the right conditions, a flux of icy brine flows 
 Description ....
 
 ## Flow 100
-<video src="https://user-images.githubusercontent.com/54986485/184774459-eaa6ea77-1bbd-4c0e-8a4d-8c6332b5000f.mp4" width="10%" height="10%"> 
+<video src="https://user-images.githubusercontent.com/54986485/185271226-681fc74c-a7db-4b5e-9790-d1e7c4c1296a.mp4" width="10%" height="10%"> 
 </video> 
  
 ## Flow 200
-<video src="https://user-images.githubusercontent.com/54986485/184775336-29bc8db5-5b58-4976-ac1b-e2dfe193cee3.mp4" width="10%" height="10%">
+<video src="https://user-images.githubusercontent.com/54986485/185271415-f2edc37b-a756-4234-a726-ad0b8a82e7f9.mp4" width="10%" height="10%">
 </video> 
   
 ## Flow 300
-<video src="https://user-images.githubusercontent.com/54986485/184775367-ff9b1c6d-c6a6-42a4-b3c8-f70586b1b518.mp4" width="10%" height="10%">
+<video src="https://user-images.githubusercontent.com/54986485/185271429-3243bbc5-0ce5-4ef6-bdf6-2805222591be.mp4" width="10%" height="10%">
 </video> 
    
 ## Flow 400
-<video src="https://user-images.githubusercontent.com/54986485/184775387-65937ad2-91b5-48a3-a351-0d6d7a6fc93f.mp4" width="10%" height="10%">
+<video src="https://user-images.githubusercontent.com/54986485/185271475-5568f7e9-41b8-4845-baa0-a9e1fb274138.mp4" width="10%" height="10%">
 </video> 
-    
+
+
 ## Flow 500
-<video src="https://user-images.githubusercontent.com/54986485/184775404-b8c629d3-66bd-42e2-a2fe-ae02a82753d2.mp4" width="10%" height="10%">
+<video src="https://user-images.githubusercontent.com/54986485/185271478-6495e560-097d-4d6d-b831-bd55e1cf0466.mp4" width="10%" height="10%">
 </video> 
+
+
+
+## Dendrites
+
+<video src="https://user-images.githubusercontent.com/54986485/185271529-fdf337d3-3361-4ed0-8f1a-eac4cadc60a7.mp4" width="10%" height="10%">
+</video> 
+
+
 
 
 ## Running the program
