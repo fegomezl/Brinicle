@@ -4,19 +4,19 @@ This repo contains the software used to simulate the formation of a brinicle, wh
 
 ## Abstract
 
-Below the Arctic sea ice, under the right conditions, a flux of icy brine flows down into the sea. The icy brine has a much lower fusion point and is denser than normal seawater. As a result, it sinks while freezing everything around it, forming an ice channel called a brinicle (also known as ice stalactite). In this paper, we develop a mathematical model for this phenomenon, assuming cylindrical symmetry. The fluid is considered to be viscous and quasi-stationary. The heat and salt transport are weakly coupled to the fluid motion and are modeled with the corresponding conservation equations, accounting for diffusive and convective effects. Finite element discretization is employed to solve the coupled system of partial differential equations. We find that the model can capture the general behavior of the physical system and generate brinicle-like structures while also recovering dendrite composition, which is a physically expected feature aligned with previous experimental results. It is the first complete model proposed that captures the global structure of the physical phenomenon. Although, it has some discrepancies, such as brine accumulation. 
+Below the Arctic sea ice, under the right conditions, a flux of icy brine flows down into the sea. The icy brine has a much lower fusion point and is denser than normal seawater. As a result, it sinks while freezing everything around it, forming an ice channel called a brinicle (also known as ice stalactite). In this paper, we develop a mathematical model for this phenomenon, assuming cylindrical symmetry. The fluid is considered to be viscous and quasi-stationary. The heat and salt transport are weakly coupled to the fluid motion and are modeled with the corresponding conservation equations, accounting for diffusive and convective effects. Finite element discretization is employed to solve the coupled system of partial differential equations. We find that the model can capture the general behavior of the physical system and generate brinicle-like structures while also recovering dendrite composition, which is a physically expected feature aligned with previous experimental results. This represents the first complete model proposed that captures the global structure of the physical phenomenon even though it has some discrepancies, such as brine accumulation. 
 
 ## Citation
 
 ```
 @article{brinicle,
-  title = {On the simulation of a Brinicle},
+  title = {Modeling and simulation of brinicle formation},
   author = {Felipe G\'{o}mez-Lozada, Carlos Andr\'{e}s del Valle, Juli\'{a}n Jim\'{e}nez, Boyan S. Lazarov, Juan Galvis},
   journal = {},
   doi = {},
   volume = {},
   pages = {},
-  year = {2022}
+  year = {2023}
 }
 ```
 
@@ -30,7 +30,7 @@ Below the Arctic sea ice, under the right conditions, a flux of icy brine flows 
 
 ## Results
 
-Next some runs for the simulation are presented.
+Next some animations and images of the simulations are presented:
 
 ## Dendrites
 
