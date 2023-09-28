@@ -8,6 +8,8 @@ Below the Arctic sea ice, under the right conditions, a flux of icy brine flows 
 
 ## Citation
 
+[![DOI](https://zenodo.org/badge/525176674.svg)](https://zenodo.org/badge/latestdoi/525176674)
+
 ```
 @article{brinicle,
   title = {Modeling and simulation of brinicle formation},
