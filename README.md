@@ -12,13 +12,16 @@ Below the Arctic sea ice, under the right conditions, a flux of icy brine flows 
 
 ```
 @article{brinicle,
-  title = {Modeling and simulation of brinicle formation},
-  author = {Felipe G\'{o}mez-Lozada, Carlos Andr\'{e}s del Valle, Juli\'{a}n Jim\'{e}nez, Boyan S. Lazarov, Juan Galvis},
-  journal = {},
-  doi = {},
-  volume = {},
-  pages = {},
-  year = {2023}
+author = {Gómez-Lozada, Felipe  and del Valle, Carlos Andrés  and Jiménez-Paz, Julián David  and Lazarov, Boyan S.  and Galvis, Juan },
+title = {Modelling and simulation of brinicle formation},
+journal = {Royal Society Open Science},
+volume = {10},
+number = {10},
+pages = {230268},
+year = {2023},
+doi = {10.1098/rsos.230268},
+URL = {https://royalsocietypublishing.org/doi/abs/10.1098/rsos.230268},
+eprint = {https://royalsocietypublishing.org/doi/pdf/10.1098/rsos.230268},
 }
 ```
 
